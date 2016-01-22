@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300|Enriqueta:400,700|Montserrat:400,700);
 
+/* global styles */
 body
 {
   background-color: #eee;
@@ -24,6 +25,13 @@ a
   font-weight: bold;
   color: #196daa;
   text-decoration: none;
+}
+
+.flexgrid-row
+{
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
 }
 
 a:hover
