@@ -143,3 +143,109 @@ a:hover
 .hero p a:hover {
   color: #fff;
 }
+
+/* Interested? */
+.interested
+{
+  margin-top: .5rem;
+  width: 100%;
+  background-color: #7290aa;
+  border-left: .5rem solid #154466;
+  box-sizing: border-box;
+}
+
+.interested-title
+{
+  padding: 1rem;
+  flex-grow:1;
+}
+
+.interested-title h1
+{
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+  color: #154466;
+  font-size: 1.6rem;
+}
+
+.interested-title h2
+{
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.interested-calendar
+{
+  padding: 1rem;
+  flex-grow:2;
+}
+
+.calendar-date
+{
+    height: 5rem;
+    width: 5rem;
+}
+
+.calendar-date .month
+{
+  font-family: "Oswald", sans-serif;
+  font-size: .9rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
+  width: 100%;
+  height:1.5rem;
+  line-height: 1.5rem;
+}
+
+.calendar-date .day
+{
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color:#000;
+  background-color: #fff;
+  width: 100%;
+  height: 3.5rem;
+  line-height: 3.5rem;
+}
+
+.calendar-text
+{
+    margin-left: 1rem;
+    flex-grow:
+}
+
+.meetup-btn {
+  display: inline-block;
+  font-family: "Enriqueta", serif;
+  font-size: .9rem;
+  font-weight: bold;
+  background: #3498db;
+  border-radius: 8px;
+  color: #81b2cc;
+  background: #2c5577;
+  padding: .3rem .6rem;
+  text-decoration: none;
+  transition: background-color 1s;
+}
+
+.meetup-btn:hover {
+  background: #fff;
+  text-decoration: none;
+}
+
+.calendar-text .date
+{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: .3rem;
+}
