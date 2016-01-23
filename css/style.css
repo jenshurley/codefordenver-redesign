@@ -380,3 +380,29 @@ section.standard
   height: 5.5rem;
   background: #48b9b5 url("../images/dashboard-sparktime.png") top left / auto 100% no-repeat;
 }
+
+
+/* Sponsors */
+.sponsors-sponsor
+{
+  flex-grow: 2;
+  align-self: flex-end;
+  text-align: center;
+}
+
+.sponsors-sponsor img
+{
+  height: 3.5rem;
+}
+
+.sponsors-codefordenver
+{
+  flex-grow: 3;
+  align-self: flex-start;
+  text-align: center;
+}
+
+.sponsors-codefordenver img
+{
+    height: 4rem;
+}
