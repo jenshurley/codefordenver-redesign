@@ -341,7 +341,7 @@ section.standard
 .dashboard-item.members
 {
   flex-grow: 4;
-  background: #eb663b url("../images/dashboard-members.png") center / 90% 90% no-repeat;
+  background: #eb663b url("../images/dashboard-members.png") center / 100% 90% no-repeat;
 }
 .dashboard-item.meetings
 {
