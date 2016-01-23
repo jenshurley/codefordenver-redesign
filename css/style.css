@@ -341,17 +341,17 @@ section.standard
 .dashboard-item.members
 {
   flex-grow: 4;
-  background: #eb663b url("../images/dashboard-members.png") top center / auto 90% no-repeat;
+  background: #eb663b url("../images/dashboard-members.png") center / 90% 90% no-repeat;
 }
 .dashboard-item.meetings
 {
   flex-grow: 5;
-  background: #9c4275 url("../images/dashboard-meetings.png") top center / 80% auto no-repeat;
+  background: #9c4275 url("../images/dashboard-meetings.png") top center / 80% 80% no-repeat;
 }
 .dashboard-item.projects
 {
   flex-grow: 5;
-  background: #11b0c5 url("../images/dashboard-projects.png") center right / 40% auto no-repeat;
+  background: #11b0c5 url("../images/dashboard-projects.png") center right / auto 50% no-repeat;
 }
 .dashboard-item.pizza
 {
@@ -378,7 +378,7 @@ section.standard
 .dashboard-item.infinite
 {
   height: 50%;
-  background: #b41212 url("../images/dashboard-infinite.png") center center / auto 90% no-repeat;
+  background: #b41212 url("../images/dashboard-infinite.png") center / 90% 90% no-repeat;
 }
 
 .dashboard-item.sparktime
