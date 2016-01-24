@@ -306,7 +306,13 @@ section.standard
 .standard.dashboard
 {
   padding: 0;
+}
+
+.dashboard > .flexgrid-column
+{
+  max-width: 50rem;
   border: .5rem solid #000;
+  margin: auto;
 }
 
 .dashboard-item
@@ -318,6 +324,8 @@ section.standard
 {
   height: 10rem;
 }
+
+
 
 /*
 202
