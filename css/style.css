@@ -100,8 +100,7 @@ a:hover
   transition: color 1s, background-color 1s;
   text-decoration: none;
   color: #707070;
-  height: 1.5rem;
-  line-height: 1.5rem;
+  padding: .25rem 0;
 }
 
 .mainnav-link.current a, .mainnav-link a:hover
