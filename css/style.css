@@ -265,6 +265,8 @@ a:hover
   margin-top: .3rem;
 }
 
+
+
 /* Get connected */
 .social-link
 {
@@ -298,6 +300,22 @@ a:hover
   height: auto;
   min-width: 20rem;
   max-width: 25rem;
+}
+
+@media (max-width: 775px) {
+  .getconnected > .flexgrid-row
+  {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .getconnected-links
+  {
+    min-width: inherit;
+    width: auto;
+  }
+
+
 }
 
 /* Dashboard */
