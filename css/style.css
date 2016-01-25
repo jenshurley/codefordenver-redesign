@@ -486,3 +486,17 @@ a:hover
   background-color: #fff;
   border-radius:3px;*/
 }
+
+@media (max-width: 642px) {
+  .footer-nav-col
+  {
+    flex-basis: 33%;
+  }
+}
+
+@media (max-width: 467px) {
+  .footer-nav-col
+  {
+    flex-basis: 50%;
+  }
+}
