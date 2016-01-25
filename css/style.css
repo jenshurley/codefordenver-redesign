@@ -46,7 +46,7 @@ a:hover
   text-decoration: underline;
 }
 
-section.standard
+.standard
 {
   width: 100%;
   margin-top: .5rem;
@@ -413,4 +413,58 @@ section.standard
 .sponsors-codefordenver img
 {
     height: 4rem;
+}
+
+
+/* footer-nav */
+
+.footer-nav
+{
+  background-color: #373737;
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem;
+}
+
+.footer-nav > .flexgrid-row
+{
+  justify-content: space-between;
+}
+
+.footer-nav ul
+{
+  padding:0 1rem 1rem 0;
+  margin: 0;
+}
+
+.footer-nav li
+{
+  color: #fff;
+  list-style: none;
+  font-size: .5rem;
+  text-align: left;
+  line-height: 1rem;
+  font-weight: 700;
+}
+
+.footer-nav li a
+{
+  color: #a7a7a7;
+  transition: color .5s;
+  text-decoration: none;
+  font-weight: 100;
+  transition: color .5s;
+}
+
+.footer-nav li a:hover, .footer-nav li a:hover i
+{
+  color: #6cb2ff;
+}
+
+.footer-nav li a i
+{
+  color: #fff;
+  transition: color .5s;
+  /*
+  background-color: #fff;
+  border-radius:3px;*/
 }
