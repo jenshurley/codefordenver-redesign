@@ -462,6 +462,7 @@ a:hover
 
 .footer-nav li a i
 {
+  font-size: 150%;
   color: #fff;
   transition: color .5s;
   /*
