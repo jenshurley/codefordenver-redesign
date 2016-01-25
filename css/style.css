@@ -319,7 +319,6 @@ a:hover
 }
 
 /* Dashboard */
-
 .standard.dashboard
 {
   padding: 0;
@@ -327,77 +326,83 @@ a:hover
 
 .dashboard > .flexgrid-column
 {
-  max-width: 50rem;
+  /*max-width: 50rem;*/
   border: .5rem solid #000;
   margin: auto;
+  box-sizing: border-box;
+}
+.dashboard .flexgrid-row
+{
+  background-color: #000;
 }
 
 .dashboard-item
 {
   border: .25rem solid #000;
-}
-
-.dashboard-toprow
-{
-  height: 10rem;
-}
-
-
-
-/*
-202
-265
-276
-202
-241
-
-200
-250
-250
-200
-250
-*/
-.dashboard-item.members
-{
-  flex-grow: 4;
-  background: #eb663b url("../images/dashboard-members.png") center / 100% 90% no-repeat;
-}
-.dashboard-item.meetings
-{
-  flex-grow: 5;
-  background: #9c4275 url("../images/dashboard-meetings.png") top center / 80% 80% no-repeat;
-}
-.dashboard-item.projects
-{
-  flex-grow: 5;
-  background: #11b0c5 url("../images/dashboard-projects.png") center right / auto 50% no-repeat;
-}
-.dashboard-item.pizza
-{
-  flex-grow: 4;
-  background: #ff9617 url("../images/dashboard-pizza.png") bottom center / auto 60% no-repeat;
+  text-align: center;
+  flex-grow: 1;
 }
 
 .dashboard-toprightcolumn
 {
-  flex-grow: 5;
-  height: 100%;
+  flex-grow: 1;
 }
 
-.dashboard-toprightcolumn .flexgrid-column
+.dashboard-item img
 {
-  height: 100%;
+  max-width: 10rem;
+  max-height: 9rem;
+}
+
+.dashboard-toprow
+{
+}
+
+
+.dashboard-item.members
+{
+  background: #eb663b;
+}
+.dashboard-item.meetings
+{
+  background: #9c4275;
+}
+.dashboard-item.projects
+{
+  background: #11b0c5;
+  padding: .5rem;
+}
+.dashboard-item.pizza
+{
+  background: #ff9617;
+  padding: .75rem;
+  max-width: 10rem;
+}
+.dashboard-item.pizza img
+{
+  max-height: 8.7rem;
 }
 
 .dashboard-item.linesofcode
 {
-  height: 50%;
-  background-color: #454545;
+  background: #454545;
+  padding: .4rem;
 }
+.dashboard-item.linesofcode img
+{
+  max-height: 4rem;
+}
+
 .dashboard-item.infinite
 {
-  height: 50%;
-  background: #b41212 url("../images/dashboard-infinite.png") center / 90% 90% no-repeat;
+  background: #b41212;
+  padding-top:1.1rem;
+  border-bottom: none;
+}
+
+.dashboard-item.infinite img
+{
+  max-height: 3.5rem;
 }
 
 .dashboard-item.sparktime
@@ -406,6 +411,13 @@ a:hover
   background: #48b9b5 url("../images/dashboard-sparktime.png") top left / auto 100% no-repeat;
 }
 
+@media (max-width: 761px) {
+  .dashboard-item.infinite
+  {
+    border-bottom: .25rem solid #000;
+  }
+
+}
 
 /* Sponsors */
 .sponsors-sponsor
