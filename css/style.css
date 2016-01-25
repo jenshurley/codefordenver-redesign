@@ -397,7 +397,6 @@ a:hover
 {
   background: #b41212;
   padding-top:1.1rem;
-  border-bottom: none;
 }
 
 .dashboard-item.infinite img
@@ -410,12 +409,6 @@ a:hover
   height: 5.5rem;
   background: #48b9b5 url("../images/dashboard-sparktime.png") top left / auto 100% no-repeat;
 }
-
-@media (max-width: 761px) {
-  .dashboard-item.infinite
-  {
-    border-bottom: .25rem solid #000;
-  }
 
 }
 
