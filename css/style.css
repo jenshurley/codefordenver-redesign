@@ -268,6 +268,16 @@ a:hover
 
 
 /* Get connected */
+.getconnected > .flexgrid-row
+{
+  justify-content: space-around;
+}
+
+.getconnected-links
+{
+  flex-basis: 30rem;
+}
+
 .social-link
 {
   color: #ccc;
@@ -281,41 +291,11 @@ a:hover
   color: #196daa;
 }
 
-.getconnected-links
-{
-  width: 55%;
-  min-width: 25rem;
-}
-
-.getconnected-twitter
-{
-  width: 45%;
-  align-items: flex-end;
-  text-align: right;
-}
-
-.twitter-widget img
-{
-  width: 100%;
-  height: auto;
-  min-width: 20rem;
-  max-width: 25rem;
-}
-
-@media (max-width: 775px) {
+@media (max-width:1047px) {
   .getconnected > .flexgrid-row
   {
-    flex-direction: column;
-    width: 100%;
+    justify-content: space-between;
   }
-
-  .getconnected-links
-  {
-    min-width: inherit;
-    width: auto;
-  }
-
-
 }
 
 /* Dashboard */
@@ -375,7 +355,7 @@ a:hover
 .dashboard-item.pizza
 {
   background: #ff9617;
-  padding: .75rem;
+  padding: .75rem .75rem 0 .75rem;
   max-width: 10rem;
 }
 .dashboard-item.pizza img
