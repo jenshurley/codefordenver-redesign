@@ -435,6 +435,39 @@ a:hover
     height: 4rem;
 }
 
+@media (max-width: 666px) {
+  .sponsors > .flexgrid-row
+  {
+   flex-direction: column;
+  }
+
+  .sponsors-codefordenver, .sponsors-sponsor
+  {
+   align-self: center;
+  }
+
+/*
+  .sponsors-codefordenver img
+  {
+     height: 5rem;
+  }
+
+  .sponsors-codefordenver p
+  {
+   font-size: 150%;
+  }
+*/
+  .sponsors-codefordenver
+  {
+   order: 1;
+  }
+
+  .sponsors-sponsor
+  {
+    order: 2
+  }
+
+}
 
 /* footer-nav */
 
