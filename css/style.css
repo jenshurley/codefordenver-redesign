@@ -159,10 +159,9 @@ a:hover
 /* Interested? */
 .interested
 {
-  margin-top: .5rem;
   background-color: #7290aa;
   border-left: .5rem solid #154466;
-  box-sizing: border-box;
+  padding: 0;
 }
 
 .interested-title
