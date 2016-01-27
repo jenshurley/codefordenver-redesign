@@ -79,13 +79,12 @@ a:hover
   text-align: center;
   padding: 0;
   margin: 0;
-  width: 100%;
-  display: table;
+  display: flex;
 }
 
 .mainnav-link
 {
-  display: table-cell;
+  flex-grow: 1;
 }
 
 .mainnav-link a
