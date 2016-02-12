@@ -5,6 +5,7 @@ body
 {
   background-color: #eee;
   font-size:1rem;
+  font-family: "Enriqueta", serif;
 }
 
 h1
@@ -46,6 +47,11 @@ a:hover
   text-decoration: underline;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .standard
 {
   margin-top: .5rem;
@@ -116,6 +122,7 @@ a:hover
   background-color: #FFF;
 }
 
+/*Text Block Section*/
 .about-container {
   max-width: 760px;
   margin: 0 auto;
@@ -125,13 +132,26 @@ a:hover
   flex-basis: 25em;
   margin: 0.5rem;;
 }
+
+.blue {
+  color: #6cb2ff;
+  font-size: 1.414rem;
+}
 /* Hero Image Section */
-.hero {
+.landing{
   background: url("../images/hero.png") no-repeat center center;
   background-size: cover;
   height: 16.5rem;
   position: relative;
 }
+
+.do {
+  background: url("../images/cfd-1.jpg") no-repeat center center;
+  background-size: cover;
+  height: 36rem;
+  position: relative;
+}
+
 
 .hero .intro {
   display: inline-block;
@@ -196,7 +216,7 @@ a:hover
   font-family: "Oswald", sans-serif;
   font-weight: bolder;
   color: #154466;
-  font-size: 2.827rem;
+  font-size: 1.999rem;
 }
 
 .interested-title h2
@@ -406,13 +426,15 @@ a:hover
 
 /* Quotes */
 .quotes {
-  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat", sans-serif;
   border-left: .5rem solid #154466;
   margin-bottom: 0;
   background-color: rgba(114, 144, 170, 0.18);
   padding: 1rem;
   margin: 1.414rem;
   color: #154466;
+  font-weight: lighter;
+  font-size: 1.3rem;
 }
 /* Sponsors */
 .sponsors-sponsor

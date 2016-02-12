@@ -8,19 +8,20 @@
     <meta name="description" content="Code For Denver - Redesign" />
     <meta name="author" content="Code For Denver" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="js/menu.js"></script>
+    <!-- disabling javascript for navlinks. <script src="js/menu.js"></script> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"> -->
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
+
 <header class="mainheader">
   <img class="mainlogo" src="images/logo-bw.png" />
   <nav class="mainnav">
     <ul>
-      <li class="mainnav-link current"><a href="#" data-color="#e24e54">Who We Are</a></li>
-      <li class="mainnav-link"><a href="#" data-color="#fdbf46">What We Do</a></li>
+      <li class="mainnav-link current"><a href="#">Who We Are</a></li>
+      <li class="mainnav-link"><a href="what_we_do.html" data-color="#fdbf46">What We Do</a></li>
       <li class="mainnav-link"><a href="#" data-color="#26849e">Want to Help?</a></li>
       <li class="mainnav-link"><a href="#" data-color="#611305">Can We Help You?</a></li>
       <li class="mainnav-link"><a href="#" data-color="#611305">Blog</a></li>
@@ -29,8 +30,8 @@
   </nav>
 </header>
 
-
-<section class="hero">
+<!--<div class="main"> -->
+<section class="hero landing">
   <div class="intro">
     <h1>We Are Code For Denver.</h1>
     <p><a href="#">We meet almost every Monday. Join us, everyone is welcome!</a></p>
@@ -55,10 +56,11 @@
           </div>
         </div>
     </div>
-  </div>
+
+</div>
 </section>
 
-<main>
+<!--<main> -->
 
   <section class="standard primary">
     <!--<div class="about-container">  -->
@@ -67,17 +69,15 @@
         <div class="one-third column">-->
         <div class="flexgrid-row">
         <div class="about-text">
-          <p><a href="#">Code for Denver</a> is an dedicated, cooperative and diverse group of volunteers. <br> We are dedicated to the creation of civic technology aimed squarely at solving the problems of the world around us.</p>
+          <p><a class="blue" href="#">Code for Denver</a> is a dedicated, cooperative and diverse group of volunteers. We are dedicated to the creation of civic technology aimed squarely at solving the problems of the world around us.</p>
         </div>
 
       <div class="about-text">
-        <p>We are technologists, programmers, visual and graphic designers,
-          product managers, community organizers, students, researchers, developers,
-          ux’ers, agilists and geeks. We are mothers and brothers and sisters and citizens.</p>
+        <p><strong><span class="blue">We are technologists,</span></strong> programmers, visual and graphic designers,product managers, community organizers, students, researchers, developers, ux’ers, agilists and geeks. We are mothers and brothers and sisters and citizens.</p>
       </div>
 
       <div class="about-text">
-          <p><strong>We may not all be coders, but we are all working for a better Denver,
+          <p><strong><span class="blue">We may not all be coders<span>,</strong> but we are all working for a better Denver,
           a better America, and a better tomorrow.</strong></p>
           <p><a href="#">Learn more about what we do, and how and why we do it!</a></p>
         </div>
@@ -148,6 +148,7 @@
     </div>
   </section>
 </main>
+<!--</div> -->
 
 <footer>
   <section class="standard sponsors">
