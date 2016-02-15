@@ -152,6 +152,12 @@ a:hover
   position: relative;
 }
 
+.support {
+  background: url("../images/cfd-9.jpg") no-repeat center center;
+  background-size: cover;
+  height: 36rem;
+  position: relative;
+}
 
 .hero .intro {
   display: inline-block;
@@ -196,7 +202,7 @@ a:hover
   color: #fff;
 }
 
-/* Interested? */
+/*Interested */
 .interested
 {
   background-color: #7290aa;
@@ -299,7 +305,57 @@ a:hover
   line-height: 1.414rem;
 }
 
+/*Support us*/
+.donate-btn {
+  display: inline-block;
+  font-family: "Enriqueta", serif;
+  font-size: 1.414rem;
+  font-weight: bold;
+  background: #e24e54;
+  border-radius: 8px;
+  color: #d6d6d6;
+  padding: .3rem .3rem;
+  text-decoration: none;
+  transition: background-color 1s;
+  margin-top: .707rem;
+}
 
+.donate-btn:hover {
+  background: #d6d6d6;
+  text-decoration: none;
+}
+
+/* Summary Teaser */
+.summary
+{
+  background-color: #3c3c3c;
+  border-left: .5rem solid #e24e54;
+  padding: 0;
+}
+
+.summary-title
+{
+  padding: 1rem;
+  flex-grow:1;
+}
+
+.summary-title h1
+{
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+  color: #e24e54;
+  font-size: 1.999rem;
+}
+
+.summary-title h2
+{
+  margin-top: -0.5rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: -.04rem;
+}
 
 /* Get connected */
 .getconnected > .flexgrid-row
