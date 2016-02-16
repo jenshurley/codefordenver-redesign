@@ -16,6 +16,14 @@ h1
   color: #232121;
 }
 
+h2
+{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #196daa;
+  font-size: 1.999rem;
+}
+
 p
 {
   font-family: "Enriqueta", serif;
@@ -154,6 +162,13 @@ a:hover
 
 .support {
   background: url("../images/cfd-9.jpg") no-repeat center center;
+  background-size: cover;
+  height: 28rem;
+  position: relative;
+}
+
+.partner {
+  background: url("../images/cfd-8.jpg") no-repeat center center;
   background-size: cover;
   height: 36rem;
   position: relative;
@@ -325,6 +340,12 @@ a:hover
   text-decoration: none;
 }
 
+/*Main Text*/
+.become-a-partner h1 {
+  font-weight: bold;
+  color: #196daa;
+  font-size: 1.999rem;
+}
 /* Summary Teaser */
 .summary
 {
